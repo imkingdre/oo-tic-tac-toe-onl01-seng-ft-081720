@@ -22,4 +22,4 @@ def WIN_COMBINATIONS = [
   end
 end
 def input_to_index(user_input)
-  user_input
+  user_input.to
