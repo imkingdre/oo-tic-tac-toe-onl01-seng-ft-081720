@@ -38,6 +38,6 @@ def turn
   index = input_to_index(user_input)
   if valid_move?(index)
     player_token = current_player
-    move(index)
+    move(index,player_token)
 
 end
