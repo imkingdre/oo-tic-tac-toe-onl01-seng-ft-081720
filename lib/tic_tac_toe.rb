@@ -1,3 +1,3 @@
 class TicTacToe
-  intitialize
+  intitialize(board = nil)
   @board = board
