@@ -34,5 +34,5 @@ def valid_move
   @board.between?(0,8) && !position_taken?(index)
 end
 def turn
-  puts "Please choose a number 1-9"
+  puts "Please choose a number 1-9:"
   
