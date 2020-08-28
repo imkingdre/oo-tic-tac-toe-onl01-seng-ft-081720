@@ -43,5 +43,8 @@ def turn
   else
     turn
   end
+end
+def won?
+  
 
 end
