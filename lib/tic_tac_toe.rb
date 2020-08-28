@@ -60,5 +60,7 @@ def won?
       return win_combo
     end
   }
+  return false
+end
 
 end
