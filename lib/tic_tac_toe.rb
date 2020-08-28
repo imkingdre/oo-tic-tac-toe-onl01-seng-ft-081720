@@ -1,3 +1,3 @@
 class TicTacToe
   intitialize(board = nil)
-  @board = board
+  @board = board || array()
