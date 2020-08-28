@@ -32,4 +32,6 @@ def position_taken?(index)
 end
 def valid_move
   @board.between?(0,8) && !position_taken?(index)
+end
+def turn
   
