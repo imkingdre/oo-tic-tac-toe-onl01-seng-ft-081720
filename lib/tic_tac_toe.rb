@@ -23,7 +23,7 @@ def WIN_COMBINATIONS = [
 def input_to_index(user_input)
   user_input.to_i - 1
 end
-def move(index, current player = "X")
+def move(index, current_player = "X")
   @board[index] = current_player
 end
 def position_taken?(index)
